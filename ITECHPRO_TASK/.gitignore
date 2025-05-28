@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.pyo
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+.Python
+
+# Django Migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# Database
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Python test cache
+.pytest_cache/
+coverage/
+
+# Environment variables
+.env
+
+# Pip wheel cache
+*.whl
+
+# Static & media (optional – if you build or upload these)
+staticfiles/
+media/
