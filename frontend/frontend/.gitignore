@@ -1,0 +1,47 @@
+# dependencies
+node_modules/
+.pnpm/
+.pnp/
+.pnp.js
+
+# testing
+coverage/
+
+# production
+build/
+dist/
+
+# misc
+.DS_Store
+.env
+.env.* 
+.npmrc
+.vscode/
+.idea/
+*.log
+*.local
+*.cache/
+*.tgz
+
+# system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# OS files
+*.swp
+*.swo
+
+# yarn / npm
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# optional eslint cache
+.eslintcache
+
+# typescript
+*.tsbuildinfo
