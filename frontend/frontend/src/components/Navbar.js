@@ -7,6 +7,7 @@ function Navbar() {
         <Link className="navbar-brand" to="/">RAHAL</Link>
         <div className="navbar-nav">
           <Link className="nav-link" to="/">Home</Link>
+          <Link className="nav-link" to="bookings/">Bookings</Link>
         </div>
       </div>
     </nav>

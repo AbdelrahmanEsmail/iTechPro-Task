@@ -17,7 +17,7 @@ function DestinationDetails() {
     e.preventDefault();
     const bookingData = { ...formData, destinationId: id };
 
-    fetch('http://127.0.0.1:8000/api/bookings', {
+    fetch('http://127.0.0.1:8000/api/bookings/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(bookingData),
@@ -34,15 +34,32 @@ function DestinationDetails() {
       <form onSubmit={handleSubmit} className="mt-4">
         <div className="mb-3">
           <label>Name</label>
-          <input className="form-control" required onChange={e => setFormData({ ...formData, userName: e.target.value })} />
+          <input
+            className="form-control"
+            required
+            value={formData.userName}
+            onChange={(e) => setFormData({ ...formData, userName: e.target.value })}
+          />
         </div>
         <div className="mb-3">
           <label>Email</label>
-          <input type="email" className="form-control" required onChange={e => setFormData({ ...formData, email: e.target.value })} />
+          <input
+            type="email"
+            className="form-control"
+            required
+            value={formData.email}
+            onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+          />
         </div>
         <div className="mb-3">
           <label>Date</label>
-          <input type="date" className="form-control" required onChange={e => setFormData({ ...formData, date: e.target.value })} />
+          <input
+            type="date"
+            className="form-control"
+            required
+            value={formData.date}
+            onChange={(e) => setFormData({ ...formData, date: e.target.value })}
+          />
         </div>
         <button className="btn btn-success">Book Now</button>
       </form>
