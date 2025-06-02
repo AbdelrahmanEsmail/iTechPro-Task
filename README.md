@@ -96,20 +96,6 @@ npm start
 The frontend will run on: http://localhost:3000
 Make sure the backend is running to allow API integration.
 
-⸻
-
-📸 Screenshots (Optional)
-
-Add screenshots here if available.
-
-⸻
-
-📽️ Demo Video (Optional)
-
-[Insert link if you have a demo video]
-
-⸻
-
 🧠 Future Improvements (Optional)
 • Add form validation.
 • Implement booking list (admin-only or user-based).
